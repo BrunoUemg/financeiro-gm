@@ -58,11 +58,11 @@
 				<div class="login-form">
 					<div class="form-group">
 					<form action="index.php" method="POST">
-						<label for="username" class="placeholder"><b>Usuário</b></label> //user
+						<label for="username" class="placeholder"><b>Usuário</b></label>
 						<input id="username" name="user" type="text" class="form-control" required onkeyup="mascara('###.###.###-####',this,event,true)">
 					</div>
 					<div class="form-group">
-						<label for="password" class="placeholder"><b>Senha</b></label>  //senha
+						<label for="password" class="placeholder"><b>Senha</b></label>
 						<div class="position-relative">
 							<input id="password" name="senha" type="password" class="form-control" required>
 						</div>
