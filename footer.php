@@ -3,7 +3,7 @@
 		<div class="copyright ml-auto">
 
 		<?php $ano = date("Y"); ?>
-			&copy; Copyrights <?php echo $ano; ?> <strong>Desenvolvido pelo Núcleo de Práticas em Sistemas de Informação UEMG Frutal MG. Todos os direitos reservados.</strong>
+			&copy; Copyrights <?php echo $ano; ?> <strong> - Desenvolvido pelo Núcleo de Práticas em Sistemas de Informação UEMG Frutal MG. Todos os direitos reservados.</strong>
 		</div>
 	</div>
 </footer>

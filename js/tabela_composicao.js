@@ -1,5 +1,4 @@
 function cadPessoa(Nome, renda, parentesco){
-
     var tb = document.getElementById("basic-datatables");
     var qtdLinha = tb.rows.length;
     var linha = tb.insertInput(qtdLinha);
@@ -13,6 +12,4 @@ function cadPessoa(Nome, renda, parentesco){
     cellNome.innerHTML = Nome;
     cellrenda.innerHTML = renda;
     cellparentescp.innerHTML = parentesco;
-
-
 }

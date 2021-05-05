@@ -12,7 +12,7 @@
     <script>
         WebFont.load({
             google: {
-                "families": ["Lato:300,400,700,900"]
+                "families": ["POPPINS:300,400,700,900"]
             },
             custom: {
                 "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"],
@@ -43,7 +43,6 @@
             <!-- Logo Header -->
             <div class="logo-header" data-background-color="dark2">
                 <a href="index.php" class="logo">
-
             <!--<img src="img/logo.svg" alt="navbar brand" class="navbar-brand">-->
                 <font color="white"> <strong>FINANCEIRO</strong></font>
                 </a>
@@ -63,7 +62,6 @@
 
             <!-- Navbar Header -->
             <nav class="navbar navbar-header navbar-expand-lg" data-background-color="dark">
-
                 <div class="container-fluid">
                     <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
                         <li class="nav-item toggle-nav-search hidden-caret">
@@ -84,13 +82,11 @@
                                             <div class="avatar-lg"><img src="<?php //echo 'upload/'. $resultado_final['foto'] .'' ?>" alt="image profile" class="avatar-img rounded"></div>
                                             <div class="u-text">
                                                 <h4><?php //echo $_SESSION['nomeUsuario']; ?></h4>
-                                            
                                             </div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="dropdown-divider"></div>
-                                     
+                                        <div class="dropdown-divider"></div>                                     
                                         <a class="dropdown-item" href="./#.php">PERFIL</a> 
                                         <!-- abre os modais de mudar senha e alterar foto -->
                                         <a class="dropdown-item" data-toggle="modal" data-target="#alterar_senha">ALTERAR SENHA</a>
@@ -119,13 +115,12 @@
                             <a data-toggle="collapse" aria-expanded="true">
                                 <span>
                                 USUARIO
-                                    <?php //echo $_SESSION['nomeUsuario']; ?>      
+                                <?php //echo $_SESSION['nomeUsuario']; ?>      
                                 </span>
                             </a>
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <ul class="nav nav-primary">
                         <li class="nav-item active">
                             <a href="index.php">
@@ -133,7 +128,6 @@
                                 <p>HOME</p>
                             </a>
                         </li>
-
                         <li class="nav-item">
                             <a data-toggle="collapse" href="#jovem">
                             <i class="fas fa-users"></i>
