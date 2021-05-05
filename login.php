@@ -57,9 +57,9 @@
 				<h3 class="text-center">Seja bem-vindo!</h3>
 				<div class="login-form">
 					<div class="form-group">
-					<form action="index.php" method="POST">
+					<form action="valida.php" method="POST"> // modificar 
 						<label for="username" class="placeholder"><b>Usuário</b></label> //user
-						<input id="username" name="user" type="text" class="form-control" required onkeyup="mascara('###.###.###-####',this,event,true)">
+						<input id="username" name="user" type="text" class="form-control">
 					</div>
 					<div class="form-group">
 						<label for="password" class="placeholder"><b>Senha</b></label>  //senha

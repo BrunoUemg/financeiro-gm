@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION['idUser'])==false){
+		header("location:login.php");
+} //por algum motivo isso nao deu certo 
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
