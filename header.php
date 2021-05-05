@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8" />
     <title>Financeiro</title>
-    <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-  <link rel="icon" href="img/logo.png" type="image/x-icon" /> 
+    <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport'/>
+    <link rel="icon" href="img/logo.png" type="image/x-icon"/> 
 
     <!-- Fonts and icons -->
     <script src="js/plugin/webfont/webfont.min.js"></script>
@@ -32,22 +31,22 @@
     <link rel="stylesheet" href="css/select2-bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="datatables/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="datatables/dataTables.bootstrap4.min.css">
-    
 
     <script src="jquery/jquery.min.js"></script>
     <script src="js/select2.min.js"></script>
-
+    
 </head>
 
 <body data-background-color="white">
     <div class="wrapper">
         <div class="main-header">
+        
             <!-- Logo Header -->
             <div class="logo-header" data-background-color="dark2">
-
                 <a href="index.php" class="logo">
-            <!--        <img src="img/logo.svg" alt="navbar brand" class="navbar-brand"> -->
-                    <font color="white"> <strong>Financeiro</strong></font>
+
+            <!--<img src="img/logo.svg" alt="navbar brand" class="navbar-brand">-->
+                <font color="white"> <strong>Financeiro</strong></font>
                 </a>
                 <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -93,12 +92,12 @@
                                     <li>
                                         <div class="dropdown-divider"></div>
                                      
-                                        <a class="dropdown-item" href="./#.php">Meu Perfil</a> 
+                                        <a class="dropdown-item" href="./#.php">PERFIL</a> 
                                         <!-- abre os modais de mudar senha e alterar foto -->
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#alterar_senha">Alterar senha</a>
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#alterar_foto">Alterar foto perfil</a>
+                                        <a class="dropdown-item" data-toggle="modal" data-target="#alterar_senha">ALTERAR SENHA</a>
+                                        <a class="dropdown-item" data-toggle="modal" data-target="#alterar_foto">FOTO DE PERFIL</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="./login.php">Sair</a>
+                                        <a class="dropdown-item" href="./login.php">SAIR</a>
                                     </li>
                                 </div>
                             </ul>
@@ -115,147 +114,89 @@
                 <div class="sidebar-content">
                     <div class="user">
                         <div class="avatar-sm float-left mr-2">
-                            <img src="img/logo.png" alt="..." class="avatar-img rounded-circle">
+                            <img src="img/profile-profile.png" alt="..." class="avatar-img rounded-circle">
                         </div>
                         <div class="info">
                             <a data-toggle="collapse" aria-expanded="true">
                                 <span>
-                                Nome do usuario
-                                    <?php //echo $_SESSION['nomeUsuario']; ?>
-                                    
+                                USUARIO
+                                    <?php //echo $_SESSION['nomeUsuario']; ?>      
                                 </span>
                             </a>
                             <div class="clearfix"></div>
                         </div>
                     </div>
+/** */
                     <ul class="nav nav-primary">
                         <li class="nav-item active">
                             <a href="index.php">
                                 <i class="fas fa-home"></i>
-                                <p>Menu Principal</p>
+                                <p>HOME</p>
                             </a>
                         </li>
-
-                      
-                            <li class="nav-item">
-                                <a data-toggle="collapse" href="#jovem">
-                                <i class="fas fa-users"></i>
-                                    <p>Jovem</p>
-                                    <span class="caret"></span>
-                                </a>
-                                <div class="collapse" id="jovem">
-                                    <ul class="nav nav-collapse">
-                                     
-                                    
-                                    <li>
-                                    <a href="cadastrar_jovem.php">
-                                        <span class="sub-item">Admissão</span>
-                                    </a>
-                                </li>
-
-    
-                      
-                       
-    
-                                  
-                                    </ul>
-                                </div>
-                            </li>
-
-
-
-
-                            <li class="nav-item">
-                            <a data-toggle="collapse" href="#usuario">
-                            <i class="fas fa-user"></i>
-                                <p>Administrativo</p>
+/** */
+                        <li class="nav-item">
+                            <a data-toggle="collapse" href="#jovem">
+                            <i class="fas fa-users"></i>
+                                <p>LANÇAMENTOS</p>
                                 <span class="caret"></span>
                             </a>
-                            <div class="collapse" id="usuario">
+                            <div class="collapse" id="jovem">
                                 <ul class="nav nav-collapse">
                                     <li>
-                                        <a href="cadastrar_administrativo.php">
-                                            <span class="sub-item">Cadastrar</span>
+                                        <a href="cadastrar_jovem.php">
+                                            <span class="sub-item">DESPESAS</span>
                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="consultar_administrativo.php">
-                                            <span class="sub-item">Consultar</span>
+                                        <li>
+                                        <a href="cadastrar_jovem.php">
+                                            <span class="sub-item">RECEITAS</span>
                                         </a>
                                     </li>
                                 </ul>
                             </div>
-                        </li>                
-                        
-         
-
-                   
-                            
-                            
-                          
-
+                        </li>
+/** */
                         <li class="nav-item">
                         <a data-toggle="collapse" href="#empresa">
-                        <i class="fa fa-building"></i>
-                            <p>Empresa</p>
-                            <span class="caret"></span>
+                            <i class="fa fa-building"></i>
+                                <p>EMPRESAS</p>
+                                <span class="caret"></span>
                         </a>
                         <div class="collapse" id="empresa">
                             <ul class="nav nav-collapse">
                                 <li>
                                     <a href="cadastrar_empresa.php">
-                                        <span class="sub-item">Cadastrar</span>
+                                        <span class="sub-item">CADASTRO</span>
                                     </a>
                                 </li>
-
                                 <li>
-                                <a href="consultar_empresa.php">
-                                    <span class="sub-item">Consultar</span>
-                                </a>
-                            </li>
-
-                            
-                                  
-                              
-                              
-                            </ul>
-
-                           
+                                    <a href="consultar_empresa.php">
+                                        <span class="sub-item">CONSULTA</span>
+                                    </a>
+                                </li> 
+                            </ul>  
                         </div>
-                    </li>
-
-                    <li class="nav-item">
+                        </li>
+/** */
+                        <li class="nav-item">
                             <a data-toggle="collapse" href="#rela">
                             <i class="fa fa-archive"></i>
-                                <p>Relatório</p>
+                                <p>RELATÓRIOS</p>
                                 <span class="caret"></span>
                             </a>
                             <div class="collapse" id="rela">
                                 <ul class="nav nav-collapse">
                                     <li>
                                         <a href="#">
-                                            <span class="sub-item">Relatório</span>
+                                            <span class="sub-item">MENSAIS</span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="sub-item">SEMESTRAIS</span>
                                         </a>
                                     </li>
-    
-                   
-                     
                                 </ul>
-
-                           
-                                </div>
-                            </li>
-
-     
-
-                            
-
-                     
-
-
-
-
-
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -293,7 +234,6 @@
             </div>
         </div>
 
-
         <!-- modal -->
      <div aria-hidden="true" aria-labelledby="alterar_foto" role="dialog" tabindex="-1" id="alterar_foto" class="modal fade">
             <div class="modal-dialog">
@@ -307,12 +247,7 @@
                             <p>Foto de Perfil</p>
                             <input type="file" name="foto" autocomplete="off" class="form-control placeholder-no-fix" required>
                         </div>
-
-                       
                             <input type="text" hidden name="idUsuario" autocomplete="off" class="form-control placeholder-no-fix" value=" <?php echo $_SESSION['idUsuario'];?>" >
-                        
-
-                     
                         <div class="modal-footer">
                             <button data-dismiss="modal" class="btn btn-default" type="button">Cancelar</button>
                             <button class="btn btn-theme" type="submit" type="button">Enviar</button>
@@ -321,8 +256,7 @@
                 </div>
             </div>
         </div>
-       
-      
+        
         <script>
             var password = document.getElementById("nova_senha"),
                 confirm_password = document.getElementById("confirma_senha");
