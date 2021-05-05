@@ -45,7 +45,7 @@
                 <a href="index.php" class="logo">
 
             <!--<img src="img/logo.svg" alt="navbar brand" class="navbar-brand">-->
-                <font color="white"> <strong>Financeiro</strong></font>
+                <font color="white"> <strong>FINANCEIRO</strong></font>
                 </a>
                 <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -125,7 +125,7 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-/** */
+
                     <ul class="nav nav-primary">
                         <li class="nav-item active">
                             <a href="index.php">
@@ -133,7 +133,7 @@
                                 <p>HOME</p>
                             </a>
                         </li>
-/** */
+
                         <li class="nav-item">
                             <a data-toggle="collapse" href="#jovem">
                             <i class="fas fa-users"></i>
@@ -154,7 +154,7 @@
                                 </ul>
                             </div>
                         </li>
-/** */
+
                         <li class="nav-item">
                         <a data-toggle="collapse" href="#empresa">
                             <i class="fa fa-building"></i>
@@ -176,7 +176,7 @@
                             </ul>  
                         </div>
                         </li>
-/** */
+
                         <li class="nav-item">
                             <a data-toggle="collapse" href="#rela">
                             <i class="fa fa-archive"></i>
