@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="datatables/dataTables.bootstrap4.min.css">
 
     <script src="jquery/jquery.min.js"></script>
-    <script src="js/select2.min.js"></script>
-    
+    <script src="js/select2.min.js"></script>   
 </head>
 
 <body data-background-color="white">
