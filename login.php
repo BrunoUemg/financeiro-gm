@@ -10,8 +10,6 @@
   <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png">
   <link rel="manifest" href="manifest.json" />  
   <link rel="canonical" href="http://gmfrutal.com/gm_gestao/login.php">
-
-
 	<!-- Fonts and icons -->
 	<script src="js/plugin/webfont/webfont.min.js"></script>
 	<script>
@@ -28,13 +26,10 @@
 			}
 		});
 	</script>
-
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/atlantislogin.css">
-
 </head>
-
 <body class="login">
 <script>
   if ('serviceWorker' in navigator) {
@@ -57,9 +52,9 @@
 				<h3 class="text-center">Seja bem-vindo!</h3>
 				<div class="login-form">
 					<div class="form-group">
-					<form action="index.php" method="POST">
+					<form action="index.php" method="POST"> // modificar 
 						<label for="username" class="placeholder"><b>Usuário</b></label> //user
-						<input id="username" name="user" type="text" class="form-control" required onkeyup="mascara('###.###.###-####',this,event,true)">
+						<input id="username" name="user" type="text" class="form-control">
 					</div>
 					<div class="form-group">
 						<label for="password" class="placeholder"><b>Senha</b></label>  //senha
@@ -96,7 +91,6 @@
           </div>
         </div>
         <!-- modal -->
-
 			<div class="container container-signup container-transparent animated fadeIn">
 				<h3 class="text-center">Sign Up</h3>
 				<div class="login-form">
@@ -149,14 +143,11 @@
 	<script src="js/core/jquery.3.2.1.min.js"></script>
 	<script src="js/core/popper.min.js"></script>
 	<script src="js/core/bootstrap.min.js"></script>
-
 	<!-- jQuery UI -->
 	<script src="js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 	<script src="js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
-
 	<!-- Atlantis JS -->
 	<script src="js/atlantis.min.js"></script>
 	<script src="js/atlantislogin.min.js"></script>
 </body>
-
 </html>
